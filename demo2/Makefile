@@ -6,7 +6,7 @@ all: warning generate
 # if(./README.md)
 # do
 # @echo "README.md is an existing file，you just covered it"
-warning: ./README.md
+warning : README.md
 	@echo "README.md is an existing file，you just covered it"
 
 generate: 
